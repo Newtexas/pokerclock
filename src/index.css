@@ -1,0 +1,44 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inspiration&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Allura&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playball&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,200;16..144,300;16..144,400;16..144,500;16..144,600;16..144,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Graduate&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap);
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p{
+  font-size: 50px;
+}
+
+h1{
+  font-size: 80px;
+}
+
+
+
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
